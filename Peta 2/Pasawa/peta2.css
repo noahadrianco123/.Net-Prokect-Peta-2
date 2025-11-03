@@ -90,10 +90,6 @@ input[type="text"]:focus {
 section {
     display: none;
 }
-#page1:target,
-#page2:target {
-    display: block;
-}
 #page1:not(:target):not(:has(~ #page2:target)) {
     display: block;
 }
