@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+body {
+    color: #1C352D;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    font-size: 2em;
+    color: #1C352D;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1em;
+    line-height: 2;
+    color: #1C352D;
+    margin: 15px 0;
+    clear: left;
+}
+
+.float-right{
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+.text {
+    font-size: 3em;
+    background-color: #A6B28B;
+    color: #1C352D;
+    text-align: center;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.paragraph {
+    font-size: 2em;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #1C352D;
+    margin: 25px 0;
+    text-align: justify;
+    clear: left;
+}
+
+li {
+    font-size: 1.5em;
+    color: #1C352D;
+    margin: 20px 0;
+}
+
+.quiz-btn {
+  background-color: #1C352D;
+  color: #F9F6F3;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.125em;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
+  transition: background-color 0.3s;
+}
+
+.quiz-btn:hover {
+  background-color: #A6B28B;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-box {
+    background-color: #F9F6F3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(28,53,45,0.4);
+    padding: 25px;
+    margin: 20px 0;
+}
+.feature-image {
+    width: 150px;
+    display: block;
+    margin: 0;
+}
+
+.highlight-text {
+    font-size: 1.8em;
+    line-height: 1.7;
+    letter-spacing: 1;
+    color: #1C352D;
+}
+
+.info-table {
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    background: #F9F6F3;
+    margin-left: 4%;
+}
+
+.info-table th {
+    background-color: #A6B28B;
+    color: #1C352D;
+    padding: 10px;
+}
+
+.info-table td {
+    border: 1px solid rgba(28,53,45,0.12);
+    padding: 15px;
+    vertical-align: top;
+    line-height: 1.7;
+    letter-spacing: 1;
+    font-size: 1.8em;
+    color: #1C352D;
+}
+
+.info-table img {
+    width: 150px;
+    display: block;
+    margin: 0;
+}

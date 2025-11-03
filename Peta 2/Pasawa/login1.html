@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Login</title>
+  <style>
+     body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1C352D, #A6B28B);
+    color: #F9F6F3;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: #F9F6F3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(28,53,45,0.4);
+    padding: 25px;
+    max-width: 380px;
+    margin: 80px auto;
+  }
+  h2 {
+    text-align: center;
+    color: #1C352D;
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #1C352D;
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #1C352D;
+    border-radius: 8px;
+    background-color: #F9F6F3;
+    color: #1C352D;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+  }
+  input:focus, select:focus {
+    border-color: #A6B28B;
+    box-shadow: 0 0 5px rgba(166,178,139,0.4);
+  }
+  input::placeholder {
+    color: #1C352D;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1C352D;
+    color: #F9F6F3;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover {
+    background-color: #A6B28B;
+  }
+    p.note {
+      text-align: center;
+      font-size: 13px;
+      color: #F9F6F3;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Mag-login sa Quiz</h2>
+    <form action="../Aldrin/peta 2.html" method="get">
+ <label for="email">Email:</label>
+ <input type="email" id="email" placeholder="Ilagay ang iyong Email" required>
+  <label for="password">Password:</label>
+ <input type="password" id="password" placeholder="Ilagay ang iyong Password" required>
+<label><b>Seksyon:</b></label>
+<select required>
+  <option value="">Pumili...</option>
+  <option>Knowledge</option>
+  <option>Wisdom</option>
+  <option>Understanding</option>
+  <option>Judgement</option>
+  <option>Faith</option>
+  <option>Hope</option>
+  <option>Love</option>
+  <option>Peace</option>
+  <option>Joy</option>
+  <option>Humility</option>
+  <option>Compassion</option>
+  <option>Integrity</option>
+  <option>Honesty</option>
+  <option>Patience</option>
+  <option>Perseverance</option>
+  <option>Charity</option>
+</select>
+<br><br>
+  <label for="classid">Class ID:</label>
+  <input type="text" id="classid" placeholder="Ilagay ang iyong Class ID" required>
+  <button type="submit">Simulan ang Quiz</button>
+  </form>
+ </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F9F6F3;
+    color: #1C352D;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #F5C9B0;
+    color: #1C352D;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #F9F6F3;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(28,53,45,0.12);
+    font-size: 30px;
+}
+h2 {
+    color: #1C352D;
+    border-bottom: 2px solid #1C352D;
+    padding-bottom: 6px;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1C352D;
+}
+.question {
+    margin-bottom: 20px;
+}
+.choices label {
+    display: block;
+    margin-left: 25px;
+    cursor: pointer;
+    color: #1C352D;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+input[type="text"] {
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1.5px solid #1C352D;
+    color: #1C352D;
+    padding: 6px;
+    outline: none;
+}
+input[type="text"]:focus {
+    border-color: #A6B28B;
+}
+.btn {
+    background-color: #1C352D;
+    color: #F9F6F3;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #A6B28B;
+}
+
+.submit-btn {
+    background-color: #1C352D;
+    color: #F9F6F3;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #A6B28B;
+}
+section {
+    display: none;
+}
+#page1:target,
+#page2:target {
+    display: block;
+}
+#page1:not(:target):not(:has(~ #page2:target)) {
+    display: block;
+}
+.done-msg {
+    display: none;
+    color: #A6B28B;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#done:checked ~ .done-msg {
+    display: block;
+    animation: fadeIn 1s ease-in-out;
+}
+input[type="checkbox"] {
+    display: none;
+}
+

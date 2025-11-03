@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1C352D;
+    background: linear-gradient(to bottom, #F9F6F3, #F5C9B0);
+}
+
+
+
+
+
+
+.info-table {
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    background: white;
+    margin-left: 4%;
+}
+
+.info-table th {
+    background-color: #A6B28B;
+    color: #1C352D;
+    padding: 10px;
+}
+
+.info-table td {
+    border: 1px solid rgba(28,53,45,0.12);
+    padding: 15px;
+    vertical-align: top;
+    line-height: 1.7;
+    letter-spacing: 1;
+    font-size: 17px;
+    color: #1C352D;
+}
+
+.info-table img {
+    width: 150px;
+    display: block;
+    margin: 0;
+}
+
+
+.text {
+    font-size: 50px;
+    background-color: #A6B28B;
+    color: #1C352D;
+    text-align: center;
+}
+
+.halimbawa {
+    font-size: 50px;
+    color: #1C352D;
+}
+
+.float-right{
+    float: right;
+    
+}
+
+.paragraph {
+    font-size: 21px;
+    line-height: 1.7;
+    letter-spacing: 1;
+    color: #1C352D;
+}
+
+
+table.belief-table {
+  width: 100%;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid rgba(28,53,45,0.12);
+  padding: 14px;
+  vertical-align: top;
+  line-height: 1.7;
+  letter-spacing: 1;
+  font-size: 17px;
+  color: #1C352D;
+}
+
+th {
+  background-color: #A6B28B;
+  color: #1C352D;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+
+td{
+  line-height: 1.7;
+  letter-spacing: 1;
+  font-size: 17px;
+  color: #1C352D;
+}
+
+.next-btn {
+  background-color: #1C352D;
+  color: #F9F6F3;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #A6B28B;
+}
+ 
