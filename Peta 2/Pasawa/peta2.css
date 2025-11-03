@@ -85,7 +85,7 @@ input[type="text"]:focus {
 }
 
 .submit-btn:hover {
-    background-color: #A6B28B;
+    background-color: green;
 }
 section {
     display: none;
