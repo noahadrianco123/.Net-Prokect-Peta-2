@@ -87,23 +87,3 @@ p {
 .submit-btn:hover {
     background-color: green;
 }
-section {
-    display: none;
-}
-#page1:not(:target):not(:has(~ #page2:target)) {
-    display: block;
-}
-.done-msg {
-    display: none;
-    color: #A6B28B;
-    margin-top: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-#done:checked ~ .done-msg {
-    display: block;
-    animation: fadeIn 1s ease-in-out;
-}
-[type="checkbox"] {
-    display: none;
-}
