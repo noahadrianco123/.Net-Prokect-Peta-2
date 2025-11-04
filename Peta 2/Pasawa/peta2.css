@@ -10,7 +10,7 @@ header {
     color: #1C352D;
     text-align: center;
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 main {
@@ -28,7 +28,7 @@ h2 {
     padding-bottom: 6px;
 }
 p {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     color: #1C352D;
 }
@@ -41,10 +41,10 @@ p {
     cursor: pointer;
     color: #1C352D;
 }
-input[type="radio"] {
+[type="radio"] {
     margin-right: 8px;
 }
-input[type="text"] {
+[type="text"] {
     width: 80%;
     background: none;
     border: none;
@@ -53,7 +53,7 @@ input[type="text"] {
     padding: 6px;
     outline: none;
 }
-input[type="text"]:focus {
+[type="text"]:focus {
     border-color: #A6B28B;
 }
 .btn {
@@ -104,7 +104,7 @@ section {
     display: block;
     animation: fadeIn 1s ease-in-out;
 }
-input[type="checkbox"] {
+[type="checkbox"] {
     display: none;
 }
 
