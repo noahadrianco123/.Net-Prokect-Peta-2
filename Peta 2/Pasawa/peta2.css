@@ -20,7 +20,7 @@ form{
     padding: 2%;
 }
 main {
-    background-image: url(peta2.png);
+    background-image: url("imgbackground.png");
     max-width: 900px;
     margin: auto;
     background-color: #F9F6F3;
