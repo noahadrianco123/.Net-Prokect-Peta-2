@@ -5,11 +5,13 @@ body {
 }
 
 #headingtitle {
+font-family: sans-serif;
 display: flex; 
 position: static; 
 padding: 15&;
 background: #8b6c5c;
 color: #765341;
+width: 100%;
 }
 
 
@@ -83,6 +85,7 @@ footer {
       
 
     }
+
 
 
 
