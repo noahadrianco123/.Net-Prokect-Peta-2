@@ -1,8 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background: linear-gradient(to right, #a08679, #bca89f);
-  
+    background: linear-gradient(to right, #a08679, #bca89f); 
 }
 
 #headingtitle {
@@ -11,7 +10,6 @@ display: inline;
 padding: 20px;
 background: #8b6c5c;
 color: #765341;
-
 }
 
 
@@ -85,3 +83,4 @@ footer {
       
 
     }
+
